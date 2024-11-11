@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body {
+    background-color: #f5f5f5;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+section{
+    max-width: 100vw;
+    margin-bottom: 5%;
+}
+.hacker_section{
+    background-color: #000000;
+}
+h4{
+    font-size: 2.5rem;
+}
+.tag-line{
+    max-width: 250px;
+    padding-top: 3%;
+    margin-left: 2%;
+    line-height: 10%;
+    color: #fff;
+}
+.tag-line>p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 10%;
+}
+.sub-title {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+.download-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    background-color: #00c22e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#hacker{
+    padding: 8%;
+    padding-top: 5%;
+}
+.download-btn:hover {
+    background-color: #218838;
+}
+.security-btn{
+    border: solid 2px #dcdcdc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.bg-red{
+    background: linear-gradient(45deg, #440000, #e41b13)
+}
+.text-white{
+    color: #fff;
+}
+#alert{
+    width: 100%;
+}
+.info-sec{
+    border-bottom: solid 1px #ffffff52;
+}
+.plan-name{ 
+    color: white;
+    padding: 1%;
+    width: 15%;
+}
+.plan-name-text{
+    font-weight: bold;
+    background-color: #7e77f9;
+    border-radius: 5px;
+    width: 90px;
+    padding: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.one-to-one-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #7c4dff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+.video-bg {
+    width: 100%;
+    min-width: 345px;
+
+}
+.description {
+    flex-grow: 1;
+    text-align: left;
+}
+.card{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card-body,.card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body{
+    background-color: #161718;
+}
+.card-body .d-flex {
+    padding: 10px 0;
+}
+
+.card-body .badge {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.card-body .border-bottom {
+    border-color: #333 !important;
+}
+.security-btn>p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.alert-danger {
+    font-size: 18px;
+    font-weight: bold;
+}
+h1.display-4 {
+    font-size: 3rem;
+}
+
+.text-primary {
+    color: #7e77f9 !important;
+}
+
+.list-unstyled li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;;
+}
+.tad-line-text{
+    font-size: 3rem;
+}
+.btn-success {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.lead{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.list-unstyled{
+    font-size: 1.2rem;
+}
+#timer {
+    font-size: 1.2rem;
+    color: red;
+    font-weight: bold;
+    width: 100px;
+    background-color: #343a40 ;
+    border: 1px dotted white;
+}
+.media-mentions-section {
+    background-color: #e3e3e3;
+    height: 15rem;
+    padding: 20px 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.media-title {
+    font-size: 2.5rem;;
+    color: #333;
+    margin-bottom: 15px;
+}
+.text-highlight{
+    font-style: italic;
+}
+.text-highlight {
+    color: #7c4dff;
+    font-weight: bold;
+}
+
+.media-logos{
+    height: 100px;  
+    overflow: scroll;
+    border-right: 2px solid rgba(51, 51, 51, 0.294);
+    flex-wrap: nowrap;
+}
+.media-logo{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    
+    .video-div>video{
+        display: none;
+    }
+    #hacker{
+        justify-content: center;
+    }
+}
+@media (max-width: 575px) {
+    .box {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .plan-name-text{
+        width: 70px;
+    }
+}
